@@ -1,0 +1,21 @@
+# Ambientes e compiladores Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+
+# Pastas de build do PyInstaller
+build/
+build_app/
+build_stub/
+dist/
+Release/
+
+# Logs e arquivos de teste temporários
+*.log
+test_*.png
+capture_screenshots.py
+
+# Diretório de stubs em execução (mantém a pasta vazia)
+simulados/*
+!simulados/.gitkeep
