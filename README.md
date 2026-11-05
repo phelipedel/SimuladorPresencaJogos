@@ -1,4 +1,4 @@
-# 🎮 Game Presence Simulator & Detector (Pro Edition)
+# 🎮 Game Presence Simulator & Detector
 
 > **Simulador & Detector Autônomo de Presença de Jogos com Discord Rich Presence Nativo, Contexto Direct3D 11, Spoofing de Processo Pai e Suporte Inteligente Multiplataforma.**
 
@@ -6,6 +6,21 @@
 ![Portable](https://img.shields.io/badge/Build-100%25%20Standalone%20EXE-23a55a?style=for-the-badge&logo=exe)
 ![Jogos](https://img.shields.io/badge/Catálogo-10.465%20Jogos-5865f2?style=for-the-badge&logo=discord)
 ![DirectX](https://img.shields.io/badge/Gráficos-Direct3D%2011%20Real-e5a50a?style=for-the-badge)
+![Ultra Lite](https://img.shields.io/badge/Edição%20Lite-0%25%20CPU%20%7C%20~20MB%20RAM-success?style=for-the-badge)
+
+---
+
+## ⚡ Duas Edições Disponíveis
+
+| Recurso | 🚀 Edição Pro (`SimuladorPresencaJogos.exe`) | 🍃 Edição Ultra-Leve (`SimuladorPresencaJogos_Lite.exe`) |
+| :--- | :--- | :--- |
+| **Público Alvo** | PCs modernos / gamers | Computadores fracos, notebooks antigos, 2GB/4GB RAM |
+| **Uso de CPU em Repouso** | Baixo (~1-3%) | **0.0% (Zero aquecimento / sem desligamentos)** |
+| **Consumo de Memória RAM** | ~150 - 200 MB | **~20 MB (Super leve)** |
+| **Interface Gráfica** | CustomTkinter Dark Mode estilizado | Tkinter/TTK nativo acelerado por hardware |
+| **Compatibilidade Gráfica** | D3D11 + D3D12 + Vulkan + 65MB Buffer | **D3D11 Seguro + Fallback WARP (Sem travar GPUs antigas)** |
+| **Ciclo do Detector** | 2.5s (Monitoramento contínuo) | **8.0s (Pausado por padrão para economizar 100% de CPU)** |
+| **Carregamento da Base** | Recarga periódica a cada 30s | **Carregamento único na inicialização (0 leitura contínua)** |
 
 ---
 
